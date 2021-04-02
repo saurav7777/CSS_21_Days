@@ -1,0 +1,20 @@
+html {
+    box-sizing: content-box;
+  }
+  /* *, *:before, *:after {
+    box-sizing: inherit;
+  } */
+
+  .parent{
+      background-color: #23424A;
+      padding: 50px;
+      width: 50%;
+      margin: 0 auto;
+
+  }
+  .child{
+      background-color: #38CFD9;
+      height: 250px;
+      width: 100%;
+      margin: 0 auto;
+  }
