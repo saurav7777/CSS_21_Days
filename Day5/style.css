@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.main-container{
+    background-color: #23424A;
+    padding: 5rem;
+}
+.intro{
+    width: 50%;
+    max-width: 750px;
+    padding-bottom: 4rem;
+}
+#heading{
+    color: white;
+    font-size: 48px;
+    font-family: Roboto Black;
+}
+#text{
+    color: white;
+    font-family: Regular ;
+    font-size: 21px;
+    margin: 3rem 0;
+    padding-bottom: 3rem;
+}
+#abc{
+    margin: 1rem;
+}
+a{
+    color: black;
+    background-color: #38CFD9;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: Roboto Bold;
+    font-size: 21px;
+    padding: 1rem 3rem;
+    font-weight: bold;
+}
