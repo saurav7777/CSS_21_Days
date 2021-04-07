@@ -1,0 +1,8 @@
+1-> Using percentages for widths
+2 -> Avoiding to set heights
+3 -> Using max-width
+4 -> using rem and em
+        em ->font-size depends on parent element (use for padding & margin)
+        rem ->font-size depends on root element  ( use for font-size)
+        in em except font-size others size depends on font-size like padding etc
+        
