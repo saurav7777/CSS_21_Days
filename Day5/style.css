@@ -34,15 +34,25 @@ body{
     padding-bottom: 3rem;
 }
 #abc{
-    margin: 1rem;
-}
-a{
+    
     color: black;
+    /* display: inline-block; */
     background-color: #38CFD9;
-    border-radius: 50px;
+    border-radius: 100px;
     text-decoration: none;
     font-family: Roboto Bold;
     font-size: 21px;
-    padding: 1rem 3rem;
+    padding: 1em 3em;
     font-weight: bold;
+
+
+    /* display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #23424A;
+    font-weight: 900;
+    background-color: #38CFD9;
+    padding: .75em 2em;
+    border-radius: 100px;
+    font-size: 21px; */
 }
