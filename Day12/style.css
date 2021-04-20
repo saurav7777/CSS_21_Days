@@ -13,8 +13,8 @@ body{
     width: 80%;  
     /* border: 2px solid green;  */
     margin: 0 auto;
-    padding: 6.5em 0;
-    max-width: 1000px;
+    padding: 4.5em 0;
+    /* max-width: 1000px; */
 }
 
 .intro{
@@ -23,6 +23,7 @@ body{
 }
 
 .intro-text{
+    width: 70%;
    text-align: center;
    padding: 5em 9em;
    margin: 0 auto;
@@ -31,7 +32,7 @@ body{
 
 .intro-text-subtext{
     font-family: 'Roboto', sans-serif;
-    font-size: 2vw;
+    font-size: clamp(1rem,1.5vw,2rem);
     word-spacing: 5px;
     text-transform: uppercase;
     letter-spacing: 7px;
@@ -41,15 +42,16 @@ body{
 .intro-text-maintext{
     margin-top: 0;
     font-family: 'Playfair Display', serif;
-    font-size: 4.5vw;
+    font-size: clamp(2rem,3.5vw,5rem);
     color: #824936;
 }
 
 .design-info-heading{
     text-align: center;
     font-family: 'Playfair Display', serif;
-    font-size: 3.5vw;
+    font-size: clamp(2rem,2.5vw,3rem);
     color: #824936;
+    margin-top: 0px;
 }
 
 .row{
@@ -61,9 +63,37 @@ body{
 .col{
     width: 40%;
     font-family: 'Roboto', sans-serif;
-    font-size: 2vw;
+    font-size: clamp(1.3rem,1.8rem,2.1rem);
     margin: 1em 1em;
+    font-weight: lighter;
+    color: #656262db;
+    align-self: flex-start;
 }
 /* .col + .col {
     margin: 1em 5em;
 } */
+
+.s1{
+    background-color: #222C2A;
+}
+.s1 h2{
+    color: #F3EED9;
+}
+.s1 p{
+    color: #fff;
+}
+
+.s2{
+    background-color: #824936;
+}
+.s2 h2{
+    color: #F3EED9;
+}
+.s2 p{
+    color: #fff;
+}
+
+img{
+    width: 100%;
+    height: fit-content;
+}

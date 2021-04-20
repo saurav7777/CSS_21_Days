@@ -19,7 +19,8 @@ body {
 }
 
 img {
-    max-width: 100%;
+    /* max-width: 100%; */
+    width: 100%;
 }
 
 h1 {
@@ -49,7 +50,7 @@ h1 {
 
 .container {
     width: 80%;
-    max-width: 1100px;
+    /* max-width: 1100px; */
     margin: 0 auto;
 }
 
@@ -75,7 +76,7 @@ header {
 
 .logo{
     display: inline-block;
-    margin-right: 2em;
+    margin-right: 1em;
 }
 
 .nav{
@@ -107,7 +108,7 @@ header {
 
 
 .nav__link {
-    
+    text-align: center;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -161,4 +162,24 @@ header {
     text-align: center;
     color: #fff;
     background-color: #136c72;
+}
+
+@media (max-width:600px){
+    .row,.nav__list,.nav{
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero__img,
+    .primary-content, .sidebar,
+    .hero__text{
+        width: 100%;
+    }
+
+    .nav__link{
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
 }
